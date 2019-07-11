@@ -21,4 +21,3 @@
  - Getting null errors when trying to get new target to chase after
  
  MIT License
- Use it, share it, contribute to it as your own will
