@@ -9,7 +9,7 @@
  - Require Nav Mesh Agent component for path finding
  - Prefer a gun tip transform for raycast shooting (by no means required, you can also use the original game object transform)
  - Replace damage system with Debug.Log() for testing purpose or create a script with simple damage function (ex: currentHealth -= damage;)
- - Prefer 2 separate colliders for the head and the body of AI for headshot and body shot.
+ - Prefer 2 separate colliders for the head and the body of AI for calculating headshot and body shot.
  - Remove Animator reference in the script if you don't have animation for AI
  
  Possible Update in Future (you can help!):
@@ -19,3 +19,6 @@
  Encountered Problem:
  - IF AIs get too close to each other, they will become a merry-go-round
  - Getting null errors when trying to get new target to chase after
+ 
+ MIT License
+ Use it, share it, contribute to it as your own will
